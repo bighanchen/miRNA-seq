@@ -1,5 +1,6 @@
 library(survival)
 
+#the DemoData.txt is the first three lines of TCGA_GBM_miRNA_microArray_level3_reverse_sel.txt.
 TCGA_GBM_miRNA=read.table("TCGA_GBM_miRNA_microArray_level3_reverse_sel.txt", header=T)
 time=TCGA_GBM_miRNA$time
 status=TCGA_GBM_miRNA$status
